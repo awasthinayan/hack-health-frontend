@@ -4,56 +4,67 @@ import './App.css';
 function App() {
   return (
    <>
-    <div className="container-fluid min-vh-100 d-flex flex-column align-items-center justify-content-center bg-gradient bg-dark text-light p-4">
-      <h1 className="text-warning text-center mb-4 animate__animated animate__fadeInDown display-4 fw-bold shadow-lg">
-        Health & Wellness App
-      </h1>
-      
-      <div className="row w-75">
-        <div className="col-md-12 mb-4">
-          <div className="card shadow-lg border-0 animate__animated animate__fadeInLeft bg-info text-white">
-            <div className="card-body text-center">
-              <h5 className="card-title fw-bold">🌿 Digital Diagnostics</h5>
-              <p className="card-text">AI-powered health assessments based on real-time data.</p>
-            </div>
-          </div>
+   <div class="col-auto">
+        <div class="dropdown">
+          <button class="btn btn-sm fw-bold px-4 py-2 rounded-pill dropdown-toggle btn-primary shadow-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-hospital"></i> 🍃 Digital Diagnostics
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </div>
       </div>
-      
-      <div className="row w-75">
-        <div className="col-md-12 mb-4">
-          <div className="card shadow-lg border-0 animate__animated animate__fadeInRight bg-success text-white">
-            <div className="card-body text-center">
-              <h5 className="card-title fw-bold">🛍️ E-Commerce & Recommendations</h5>
-              <p className="card-text">Personalized product suggestions based on your health data.</p>
-            </div>
-          </div>
+
+      <div class="col-auto">
+        <div class="dropdown">
+          <button class="btn btn-sm fw-bold px-4 py-2 rounded-pill dropdown-toggle btn-success shadow-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-clipboard-heart"></i> 🛍️ E-commerce
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </div>
       </div>
-      
-      <div className="row w-75">
-        <div className="col-md-12 mb-4">
-          <div className="card shadow-lg border-0 animate__animated animate__fadeInLeft bg-danger text-white">
-            <div className="card-body text-center">
-              <h5 className="card-title fw-bold">💬 Consultation & AI Assistance</h5>
-              <p className="card-text">Book consultations and get AI-powered health insights.</p>
-            </div>
-          </div>
+
+      <div class="col-auto">
+        <h5 class="text-dark fw-bold animate__animated animate__pulse text-nowrap mx-4">
+          <i class="bi bi-heart-pulse-fill"></i> ❤️ Health & Wellness
+        </h5>
+      </div>
+
+      <div class="col-auto">
+        <div class="dropdown">
+          <button class="btn btn-sm fw-bold px-4 py-2 rounded-pill dropdown-toggle btn-danger shadow-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-thermometer-half"></i> 💬 Consultation
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </div>
       </div>
-      
-      <div className="row w-75">
-        <div className="col-md-12 mb-4">
-          <div className="card shadow-lg border-0 animate__animated animate__fadeInRight bg-primary text-white">
-            <div className="card-body text-center">
-              <h5 className="card-title fw-bold">🚀 Future-Proof Ecosystem</h5>
-              <p className="card-text">A scalable and extensible health platform.</p>
-            </div>
-          </div>
+
+      <div class="col-auto">
+        <div class="dropdown">
+          <button class="btn btn-sm fw-bold px-4 py-2 rounded-pill dropdown-toggle btn-warning shadow-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-capsule"></i> 🚀 Future-Proof
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </div>
       </div>
+
     </div>
-</>
+</div>
+
   );
 }
 
